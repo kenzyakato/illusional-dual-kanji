@@ -23,7 +23,7 @@ def get_parser():
     parser.add_argument("--image_paths", "-I", nargs="*", default=[])
     parser.add_argument("--chars", "-C", nargs="*", default=[])
     parser.add_argument(
-        "--font_path", "-f", default="/System/Library/Fonts/ヒラギノ角ゴシック W5.ttc", type=exists_path
+        "--font_path", "-f", default="C:/Windows/Fonts/BIZ-UDMINCHOM.TTC", type=exists_path
     )
     parser.add_argument("--render", "-v", action="store_true")
     parser.add_argument("--color_coded", "-c", action="store_true")
